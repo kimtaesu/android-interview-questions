@@ -143,3 +143,27 @@ index 1~10 번 Item, 11~20 은 비우고, 30~40 번은 아이템
 
 * 메모리 효율 
 * No boxing
+
+## View 호출 순서 
+![](https://t1.daumcdn.net/cfile/tistory/211625375716700B04)
+#### onMeasure
+View의 크기를 결정할 때 불리는 함수이다.
+> View.measure() -> View.onMeasure() -> View.setMeasuredDimesion()
+#### onLayout
+child view의 위치를 잡아주는 일을 한다. onMeasure 호출 후에 onLayout 이 호출 되므로 자신의 크기를 이미 인지하는 상태에서 위치를 잡아 줄 수 있다.
+
+주의할 점은 이 위치가 장비 디스플레이의 절대적 위치이다. 부모를 기준으로한 상대적인 위치가 아니다.
+> ViewGroup.layout()-> View.layout() -> View.onLayout()
+
+#### onDraw
+화면을 그리는 일을 한다.
+
+## View 최적화
+* 필요없는 invalidate() 는 제거해라
+* requestLayout() 는 자주 사용하지 말아라
+> requestLayout를 호출할때마다 모든 View를 탐색하며 크기를 알아야 한다.
+
+## invalidate() vs requestLayout() 
+invalidate는 화면이 유효하지 않으니 다시 그리도록 하라는 것
+
+requestLayout()은 layout을 갱신하라는 것이다.
