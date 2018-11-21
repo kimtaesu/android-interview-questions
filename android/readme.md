@@ -2,7 +2,7 @@
 ![](https://jeroenmols.com/img/blog/resourcenaming/resourcenaming_cheatsheet.png)
 
 ### Android Naming Guide 
-![Guide](https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md)
+[Guide](https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md)
 
 #### Drawable files
 
@@ -40,6 +40,16 @@ Layout files should match the name of the Android components that they are inten
 | Dialog           | `ChangePasswordDialog` | `dialog_change_password.xml`  |
 | AdapterView item | ---                    | `item_person.xml`             |
 | Partial layout   | ---                    | `partial_stats_bar.xml`       |
+
+#### String constants, naming, and values
+
+| Element            | Field Name Prefix |
+| -----------------  | ----------------- |
+| SharedPreferences  | `PREF_`             |
+| Bundle             | `BUNDLE_`           |
+| Fragment Arguments | `ARGUMENT_`         |
+| Intent Extra       | `EXTRA_`            |
+| Intent Action      | `ACTION_`           |
 
 #### Unit Test 
 ```java
@@ -106,15 +116,6 @@ public class MainActivity extends Activity {
 
 }
 ```
-#### String constants, naming, and values
-
-| Element            | Field Name Prefix |
-| -----------------  | ----------------- |
-| SharedPreferences  | `PREF_`             |
-| Bundle             | `BUNDLE_`           |
-| Fragment Arguments | `ARGUMENT_`         |
-| Intent Extra       | `EXTRA_`            |
-| Intent Action      | `ACTION_`           |
 
 Example: 
 ```java
