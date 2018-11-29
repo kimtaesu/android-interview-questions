@@ -36,3 +36,4 @@
 
 ## Activity에서 Thread를 종료하지 않고 Activity를 종료하면? 
 
+## RxJava를 사용하지 않고 네트워크 통신하는법?
