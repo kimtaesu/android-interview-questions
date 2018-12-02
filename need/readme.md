@@ -206,3 +206,42 @@ SignatureOrSystem 
 * Vector Drawable
 
 ## MVC VS MVP VS MVVM 
+
+
+## 애자일
+ 
+![](https://gscaltexmediahub.com/wp-content/uploads/2018/01/2018_Jan_officeIN_04_02-2.jpg)
+
+**즉, 한 마디로 "협력과 피드백을 자주! 일찍! 더 잘하는 것!" 이다.**
+### 애자일 선언문
+* 공정과 도구보다 **개인과 상호작용**을
+* 포괄적인 문서보다 **작동하는 소프트웨어**를
+* 계약 협상보다 **고객과의 협력**을
+* 계획을 따르기보다 **변화에 대응하기**를
+ 
+왼쪽에 있는 것들도 가치가 있지만, 우리는 오른쪽에 있는 것들에 더 높은 가치를 둔다는 것이다.
+
+### 애자일 개발 프로세스
+![](https://cdn-images-1.medium.com/max/720/1*khv-SSIP1TEfmbpnjGwclA.png)
+* 익스트림 프로그래밍(Extreme Programming, XP)
+    - 테스트우선 개발(TDD)을 특징으로 하는 명시적인 기술과 방법을 가지고 있다. 
+* 스크럼 
+    - 프로젝트 관리 중심의 방법론이다.
+    - 30일마다 동작 가능한 제품을 제공하는 스프린트(Sprint)를 중심으로 하고 있다. 매일 정해진 시간에 정해진 장소에서 짧은시간의 개발을 하는 팀을 위한, 
+### 스크럼
+1. 제품 백로그(Product Backlog) 
+  - 개발할 제품에 대한 요구 사항 목록
+2. 스프린트 계획 회의(Sprint Planning Meeting) 
+ -  스프린트 목표와 스프린트 백로그를 계획하는 회의
+5. 일일 스크럼 회의(Daily Scrum Meeting) 
+ -  날마다 진행되는 미팅 (어제 한일, 오늘 할일, 장애 현상 등을 공유)
+6. 실행 가능한 제품(shippable product) 개발 
+-  스프린트의 결과로써 나오는 실행 가능한 제품
+> 스프린트 백로그(Sprint Backlog) 
+ -  각각의 스프린트 목표에 도달하기 위해 필요한 작업 목록
+ 
+> 스프린트(Sprint) 
+  - 반복적인 개발 주기 (회사에서 정하는 이터레이션이 개발 주기가 된다. 계획 회의 부터 제품 리뷰가 진행 되는 날짜 까지의 기간이 1스프린트 이다)
+ 
+![](http://tryqa.com/wp-content/uploads/2014/12/scrum-methodology.gif)
+
